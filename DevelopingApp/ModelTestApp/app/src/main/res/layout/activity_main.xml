@@ -20,7 +20,6 @@
             android:text="検索条件の指定" />
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -34,7 +33,7 @@
             android:orientation="horizontal">
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/min_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
@@ -43,7 +42,6 @@
                 android:entries="@android:array/phoneTypes" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -52,7 +50,7 @@
                 android:text="~" />
 
             <Spinner
-                android:id="@+id/spinner2"
+                android:id="@+id/max_spinner"
                 android:layout_width="153dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
@@ -62,7 +60,6 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -71,7 +68,7 @@
             android:text="場所（※駅名/路線名でも可）" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/area_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -81,7 +78,6 @@
             android:hint="地名（ex. 港区 渋谷）" />
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -90,7 +86,7 @@
             android:text="フリーワード（複数可）" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/free_word_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
